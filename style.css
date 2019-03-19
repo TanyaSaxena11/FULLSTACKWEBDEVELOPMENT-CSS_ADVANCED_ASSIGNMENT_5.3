@@ -1,0 +1,33 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+
+header{
+    display:flex;
+    height:100%;
+    width:100%;
+    align-content: stretch;  
+    }
+
+div{
+    background-color:green;
+    color:white;
+    font-weight:bold;
+    width:33%;
+    height:500px;
+    padding:10px;
+    margin:10px;
+    text-align: center;    
+    border:1.5px solid yellow;
+}
+
+@media screen and (max-width:500px){
+    div{
+        width:20%;
+        height:700px;
+    }
+}
+
+
+
